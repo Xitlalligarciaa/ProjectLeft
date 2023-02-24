@@ -37,7 +37,7 @@ public class Main {
          */
         //Desarrolar un programa que pida nombre, edad, su peso y su altura y que calcule el imc
             //imc peso/altura^2 al final mostraruna ficha completa con los datos
-       Scanner datop = new Scanner(System.in);
+      /* Scanner datop = new Scanner(System.in);
        String nombre, edad;
        double peso, altura;
        double imc;
@@ -64,6 +64,71 @@ public class Main {
         System.out.println("El peso es:"+ peso);
         System.out.println("La altura es:"+ altura);
         System.out.println("El imc es:"+ imc);
+
+       */
+        /*Desarrollar un programa que pida a el usuario su nombre, apellido, domicilio,cuanto cotizo en 2022
+          cuanto impuesto va a pagar.
+          Declarar constante de icr-12% */
+       /* Scanner usuario = new Scanner(System.in);
+        String nombre, apellido, domicilio;
+        double c2022;
+        final double isr = .12;
+        double iva;
+
+        System.out.println("Ingresa tú nombre nombre:");
+        nombre = usuario.nextLine();
+
+        System.out.println("Ingresa tú apellido:");
+        apellido = usuario.nextLine();
+
+        System.out.println("Ingresa tú domicilio:");
+        domicilio = usuario.nextLine();
+
+        System.out.println("Ingresa cuanto cotizaste en 2022:");
+        c2022 = usuario.nextDouble();
+
+        iva =  c2022 * isr;
+        System.out.println("El impuesto por pagar es:"+ iva);*/
+
+        /* Pedir al usuario nombre, apellido, domicilio, precio de su carro, calcular el impuesto de
+         tenencia (1.3% de lo que cuesta el carro)
+         */
+       /* Scanner usuario = new Scanner(System.in);
+        String nombre, apellido, domicilio;
+        double precioca;
+        final double impuesto = 0.013;
+        double pagar;
+
+        System.out.println("Ingresa tú nombre nombre:");
+        nombre = usuario.nextLine();
+
+        System.out.println("Ingresa tú apellido:");
+        apellido = usuario.nextLine();
+
+        System.out.println("Ingresa tú domicilio:");
+        domicilio = usuario.nextLine();
+
+        System.out.println("¿Cual es el precio de tú coche?");
+        precioca = usuario.nextDouble();
+
+        System.out.println("El nombre es:"+ nombre);
+        System.out.println("La apellido es:"+ apellido);
+        System.out.println("El domicilio:"+ domicilio);
+        System.out.println("El precio de tú coche es es:"+ precioca);
+
+        pagar = precioca * impuesto;
+        System.out.println("El impuesto de tenecia por pagar es " + pagar);*/
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
