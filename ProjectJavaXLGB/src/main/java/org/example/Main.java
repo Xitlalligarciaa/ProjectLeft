@@ -119,7 +119,16 @@ public class Main {
         pagar = precioca * impuesto;
         System.out.println("El impuesto de tenecia por pagar es " + pagar);*/
 
+        int a = 10;
+        int b = 5;
+        int c = 3;
 
+        if(a>b){
+            System.out.println("a es mayor que b");
+
+        }else{
+            System.out.println("a es menor que b");
+        }
 
 
 
