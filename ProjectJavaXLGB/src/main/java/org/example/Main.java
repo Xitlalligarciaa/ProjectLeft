@@ -36,7 +36,7 @@ public class Main {
         System.out.println("El resultado es: "+ resultado);+/
          */
         //Desarrolar un programa que pida nombre, edad, su peso y su altura y que calcule el imc
-            //imc peso/altura^2 al final mostraruna ficha completa con los datos
+        //imc peso/altura^2 al final mostraruna ficha completa con los datos
       /* Scanner datop = new Scanner(System.in);
        String nombre, edad;
        double peso, altura;
@@ -119,7 +119,7 @@ public class Main {
         pagar = precioca * impuesto;
         System.out.println("El impuesto de tenecia por pagar es " + pagar);*/
 
-        int a = 10;
+       /* int a = 10;
         int b = 5;
         int c = 3;
 
@@ -128,6 +128,75 @@ public class Main {
 
         }else{
             System.out.println("a es menor que b");
+        }*/
+       /* Scanner nom5 = new Scanner(System.in);
+        String nombre;
+
+        for (int i = 0; i<5; i++){
+
+            System.out.println("Ingresa tu nombre");
+            nombre = nom5.nextLine();
+            System.out.println("Tu nombre es: " +nombre);
+
+        }*/
+       /* Scanner scanner = new Scanner(System.in);
+        int numero;
+
+        for (int i = 0; i<3; i++) {
+             System.out.println("Ingresa un numero");
+            numero = scanner.nextInt();
+            System.out.println("Tu numero es:" + numero * numero);
+
+
+
+        }*/
+       /* Scanner scanner = new Scanner(System.in);
+        int numero1;
+        int numero2;
+        int suma;
+
+        for (int i = 0; i<6; i++) {
+            System.out.println("Ingresa un numero");
+            numero1 = scanner.nextInt();
+            System.out.println("Ingresa un numero");
+            numero2 = scanner.nextInt();
+
+            suma = numero1 + numero2;
+            System.out.println("La suma es:  " + suma);
+
+        }*/
+
+        /*Scanner scanner = new Scanner(System.in);
+        int edad;
+
+
+        for (int i = 0; i<4; i++) {
+            System.out.println("Ingresa tu edad");
+            edad = scanner.nextInt();
+           if (edad>17){
+               System.out.println("Eres mayor de edad");
+
+           }else {
+               System.out.println("Eres menor de edad");
+           }*/
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        double  miArrayDouble[] =new double[7];
+        for (int i = 0; i < 7; i++) {
+            miArrayDouble[i]= scanner.nextDouble();
+        }
+
+
+        }
+        
+
+
+
+
+
+
         }
 
 
@@ -140,5 +209,46 @@ public class Main {
 
 
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
