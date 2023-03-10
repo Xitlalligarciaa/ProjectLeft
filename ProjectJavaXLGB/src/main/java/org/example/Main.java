@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
        /* System.out.println("Hello world!");
         System.out.println("Xitlalli L. García Bustos");
-        int miEntero = 10;
+       1int miEntero = 10;
         float miPuntoFlotante = 0.5f;
         double miDecimal = 22.5f;
         String miTexto = "Hola soy un texto en Java";
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Mi numero que acabo de ingresar es:" + numero);*/
 
         /*int numero = 0;
-         //Desarrollar un programa en java que lea 2 numeros, que sume y me muestre el resultado
+         // 2Desarrollar un programa en java que lea 2 numeros, que sume y me muestre el resultado
         Scanner midosnum = new Scanner(System.in);
                 int numero1;
                 int numero2;
